@@ -6,6 +6,15 @@ plugins {
 android {
     namespace 'com.namaz.reminder'
     compileSdk 34
+    signingConfigs {
+        debug {
+            storeFile file("debug-key.p12")
+            storeType "PKCS12"
+            storePassword "namazdebug123"
+            keyAlias "namazdebugkey"
+            keyPassword "namazdebug123"
+        }
+    }
     defaultConfig {
         applicationId "com.namaz.reminder"
         minSdk 24
