@@ -1,6 +1,6 @@
 {
-  "status": "success",
-  "run_number": "2",
-  "apk_url": "https://github.com/kellyimran/namaz-reminder-pro/releases/download/build-2/app-debug.apk",
-  "run_url": "https://github.com/kellyimran/namaz-reminder-pro/actions/runs/39115077331"
+  "status": "failed",
+  "run_number": "5",
+  "apk_url": "https://github.com/kellyimran/namaz-reminder-pro/releases/download/build-5/app-debug.apk",
+  "run_url": "https://github.com/kellyimran/namaz-reminder-pro/actions/runs/39122259173"
 }
