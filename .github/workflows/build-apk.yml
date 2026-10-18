@@ -23,6 +23,9 @@ jobs:
         with:
           gradle-version: '8.7'
 
+      - name: Restore signing keystore
+        run: if [ -f app/debug-key.p12.base64 ]; then base64 -d app/debug-key.p12.base64 > app/debug-key.p12; fi
+
       - name: Build debug APK
         run: gradle assembleDebug --stacktrace
 
